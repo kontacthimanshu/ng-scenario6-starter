@@ -4,9 +4,9 @@ import { Injectable } from '@angular/core';
 export class PropertiesService
 {
     getProperties()
-	{
-		return props;
-	}
+	  {
+		  return props;
+	  }
 }
 
 const props:any = [

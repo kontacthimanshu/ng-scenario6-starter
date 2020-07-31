@@ -1,0 +1,9 @@
+<div>
+    <h1>New Properties for Sale</h1>
+    <hr/>
+    <div class="row">
+        <div class="col-md-5" *ngFor="let prop of props">
+            <property-thumbnail [inpProp]="prop" (click)="handleThumbnailClick(prop.name)"></property-thumbnail>
+        </div>
+    </div>
+    </div>

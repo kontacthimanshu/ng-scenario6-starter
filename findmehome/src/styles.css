@@ -2,7 +2,13 @@
 /* app css stylesheet */
 body{
   color: white;
-  background-color:#222930;
+  background-color: #F4F5F7;
+  background-image: url(./assets/images/bg.jpg);
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .hoverwell:hover {
@@ -27,7 +33,7 @@ button {
 }
 
 .toast-success {
-  background-color: #51a351;
+  background-color: #90dbe9;
 }
 .toast-error {
   background-color: #bd362f;
@@ -37,4 +43,9 @@ button {
 }
 .toast-warning {
   background-color: #f89406;
+}
+
+.main-page-heading {
+  color: #000;
+  padding: 30px 0 20px;
 }

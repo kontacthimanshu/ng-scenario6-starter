@@ -11,9 +11,9 @@ body{
   background-size: cover;
 }
 
-.prop-details:hover {
-  background-color: #555;
-  cursor: pointer; 
+.prop-details-hover:hover {
+  background-color: #FFFFE0 !important;
+  cursor: pointer;
 }
 
 .container {

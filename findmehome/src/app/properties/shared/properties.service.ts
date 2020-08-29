@@ -6,7 +6,7 @@ export class PropertiesService
     getProperties()
 	  {
 		  return props;
-	  }
+    }
 }
 
 const props:any = [

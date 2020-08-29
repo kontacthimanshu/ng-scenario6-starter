@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { PropertyListComponent } from './properties/properties-list.component';
 import { PropertyThumbnailComponent } from './properties/property-thumbnail.component';
 import { NavBarComponent } from './nav/nav-bar.component';
+import { PropertiesService } from './properties/shared/properties.service';
+import { ToastrService } from './common/toastr.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,10 @@ import { NavBarComponent } from './nav/nav-bar.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    PropertiesService,
+    ToastrService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

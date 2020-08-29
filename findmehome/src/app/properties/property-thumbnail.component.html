@@ -5,7 +5,7 @@
 	<div>Built Up Area: {{inpProp?.builtUpArea}}</div>
 	<div>Carpet Area: {{inpProp?.carpetArea}}</div>
 	<div>Configuration: {{inpProp?.configuration}}</div>
-	<div>Facing: {{inpProp?.facing}}</div>
+	<div [hidden]="!inpProp?.facing" [ngStyle]="{'color':inpProp?.facing === 'East' ? 'green':'#bbb', 'font-weight':inpProp?.facing === 'East' ? 'bold':'normal'}">Facing: {{inpProp?.facing}}</div>
 	<div>Age: {{inpProp?.age}}</div>
     <div>
         <span>Location: {{inpProp?.location.address}}</span>
